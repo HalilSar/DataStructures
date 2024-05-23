@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.LinkedList.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.LinkedList.DoublyLinkedList", "DataStructures.LinkedList.DoublyLinkedList\DataStructures.LinkedList.DoublyLinkedList.csproj", "{4F992580-0717-41CD-A1F8-D5277A162296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.LinkedList.CircularLinkedList", "DataStructures.LinkedList.CircularLinkedList\DataStructures.LinkedList.CircularLinkedList.csproj", "{92D23AD0-9744-453B-A297-4BE92B2C6D34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.LinkedList.CircularLinkedList", "DataStructures.LinkedList.CircularLinkedList\DataStructures.LinkedList.CircularLinkedList.csproj", "{92D23AD0-9744-453B-A297-4BE92B2C6D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Stack", "DataStructures.Stack\DataStructures.Stack.csproj", "{C288D7C6-F5F6-4B30-8CD7-379370571D59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{92D23AD0-9744-453B-A297-4BE92B2C6D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92D23AD0-9744-453B-A297-4BE92B2C6D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92D23AD0-9744-453B-A297-4BE92B2C6D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C288D7C6-F5F6-4B30-8CD7-379370571D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C288D7C6-F5F6-4B30-8CD7-379370571D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C288D7C6-F5F6-4B30-8CD7-379370571D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C288D7C6-F5F6-4B30-8CD7-379370571D59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
