@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.Hash.HashTab
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CollisionResolutionTechniques", "CollisionResolutionTechniques", "{61F2B797-DDD9-4BA9-903B-C7338D44B22A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Hash.CollisionResolutionTechniques.Chaining", "DataStructures.Hash.CollisionResolutionTechniques.Chaining\DataStructures.Hash.CollisionResolutionTechniques.Chaining.csproj", "{249915FF-6B06-4384-8B1A-5F934DFEA402}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.Hash.CollisionResolutionTechniques.Chaining", "DataStructures.Hash.CollisionResolutionTechniques.Chaining\DataStructures.Hash.CollisionResolutionTechniques.Chaining.csproj", "{249915FF-6B06-4384-8B1A-5F934DFEA402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Hash.CollisionResolutionTechniques.OpenAddressing", "DataStructures.Hash.CollisionResolutionTechniques.OpenAddressing\DataStructures.Hash.CollisionResolutionTechniques.OpenAddressing.csproj", "{C3B2C12B-E5CB-4BEF-B5D2-3D16D5C10074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{249915FF-6B06-4384-8B1A-5F934DFEA402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{249915FF-6B06-4384-8B1A-5F934DFEA402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{249915FF-6B06-4384-8B1A-5F934DFEA402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B2C12B-E5CB-4BEF-B5D2-3D16D5C10074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B2C12B-E5CB-4BEF-B5D2-3D16D5C10074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B2C12B-E5CB-4BEF-B5D2-3D16D5C10074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B2C12B-E5CB-4BEF-B5D2-3D16D5C10074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{E70A35B1-4CB7-405B-8FDC-4E95C9D65BF9} = {0A29E476-5AF3-40C1-B6BD-C9C47C535E5A}
 		{61F2B797-DDD9-4BA9-903B-C7338D44B22A} = {0A29E476-5AF3-40C1-B6BD-C9C47C535E5A}
 		{249915FF-6B06-4384-8B1A-5F934DFEA402} = {61F2B797-DDD9-4BA9-903B-C7338D44B22A}
+		{C3B2C12B-E5CB-4BEF-B5D2-3D16D5C10074} = {61F2B797-DDD9-4BA9-903B-C7338D44B22A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EF12415-C43F-4F1E-996D-B7AD19382CB1}
