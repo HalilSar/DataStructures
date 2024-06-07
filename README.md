@@ -26,41 +26,42 @@ array[0] = 1;
 
 
 ### Linked List
-csharp
+```csharp
 LinkedList<int> list = new LinkedList<int>();
 list.AddLast(1);
 list.AddLast(2);
-
+```
 
 ### Stack
-csharp
+```csharp
 Stack<int> stack = new Stack<int>();
 stack.Push(1);
 stack.Push(2);
 int top = stack.Pop();
-
+```
 
 ### Queue
-csharp
+```csharp
 Queue<int> queue = new Queue<int>();
 queue.Enqueue(1);
 queue.Enqueue(2);
 int front = queue.Dequeue();
-
+```
 
 ### Binary Tree
-csharp
+```csharp
 BinaryTree tree = new BinaryTree();
 tree.Insert(5);
 tree.Insert(3);
 tree.Insert(7);
-
+```
 
 ### Hash Table
-csharp
+```csharp
 HashTable<int, string> table = new HashTable<int, string>();
 table.Add(1, "One");
 string value = table[1];
+```
 ---
 
 This README provides a clear overview of the project, its features, and how to use the various data structures implemented in C#.
