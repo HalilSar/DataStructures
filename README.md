@@ -20,10 +20,10 @@ This project provides implementations of various fundamental data structures in 
 
 ## Usage
 ### Array
-csharp
+```csharp
 int[] array = new int[10];
 array[0] = 1;
-
+```
 
 ### Linked List
 ```csharp
